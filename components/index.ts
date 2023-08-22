@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import CustomButton from "./CustomButton";
 import Footer from "./Footer";
 import ImageSlideshow from "./ImageSlideshow";
+import ProjectForm from "./ProjectForm"
 
 export { 
     Hero,
@@ -10,4 +11,5 @@ export {
     CustomButton,
     Footer,
     ImageSlideshow,
+    ProjectForm,
 }

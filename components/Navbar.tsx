@@ -7,6 +7,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
          <div className='flex items-center space-x-6'>
             <Link href={"/"} className='text-indigo-500 text-2xl font-semibold'>Horizenaid</Link>
+            <Link href={"/"} className='text-black hover:text-gray-300'>Home</Link>
             <Link href={"/search"} className='text-black hover:text-gray-300'>Search</Link>
             <Link href={"/discover"} className='text-black hover:text-gray-300'>Discover</Link>
             <Link href={"/charities"} className='text-black hover:text-gray-300'>For Charities</Link>

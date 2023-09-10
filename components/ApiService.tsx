@@ -16,7 +16,7 @@ const ApiService = {
     createProjectImage: async (images: File[], projectId: number): Promise<ProjectImageData> => {
         const formData = new FormData();
         images.forEach((image, index) => {
-            formData.append(`image${index + 1}`, image);
+            formData.append(`images`, image);
         });
 
         try {
